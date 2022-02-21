@@ -1,6 +1,8 @@
 # Neverwinter Nights Tool for v1.69 (eventually not compatible with the Enhanced Edition)
 Brought to you by Souricette (daniel@chiaramello.net), last update: 2005-03-12</br>
 </br>
+!Written in REAL Basic!</br>
+</br>
 What is it???</br>
 </br>
 NWN Tool is a MacOS X and Windows Application which lets you do various things on Neverwinter Night's files (modules, haks, .erf files and .nwm files):</br>
