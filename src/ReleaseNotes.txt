@@ -1,0 +1,66 @@
+Release Notes
+
+1.0b1 - 28SEP04
+
+- First public version
+
+1.0b2 - 29SEP04
+
+- Added comments at the beginning of the Exported file
+- Now displays "Preparing Info text" instead of "Preparing Output Text"
+- Now displays "Masculine" and "Feminine" instead of "Male " and "Female" (module info)
+- The Version Info displayed in the About window is now extracted from the Settings information
+
+1.0b3 - 30SEP04
+
+- Added export of the Module info
+- Fixed crash when exporting a file with no Journal entry in it
+- Added Creature panel
+- Fixed Journal errors speaking of conversations...
+
+1.0b4 - 30SEP04
+
+- The CreatureList ListBox is now cleared before and disabled during an open file
+- The windows are now more localization-ready and multiplatform-ready
+
+2.0 - 02FEB05
+
+- Implementation of a Character Editor and Minimap Viewer
+- Fix of various bugs
+
+2.0.1b1 - 04FEB05
+
+- Fix "Feat editing" bug (adding a new feat would generate an OutBfBound exception on save)
+
+2.0.1b2 - 04FEB05
+
+- Added "Export Character Sheet" button on the Character window
+
+2.0.1b3 - 07FEB05
+
+- Fixed the "gold > 1000000" symptom, where the amount was incorrectly displayed
+- Improved "Export Character Sheet"
+
+2.0.1b4 - 07FEB05
+
+- Improved "Export Character Sheet"
+
+2.0.1b5 - 04MAR05
+
+- Improved "Export Character Sheet" (now based on a template file)
+- Abilities (STR, DEX, CON, etc...) are now adjusted according to the Race
+- We no more parse the "override" folder when we are using the "Default" module
+- RDD INT ability increase at level 9 was forgotten by the Export module - it's now fixed!
+
+2.0.1b6 - 10MAR05
+
+- Changed "FULL_XXX" tags to "FINAL_XXX" for the Export Character template format
+- Fixed empty lines handling in 2da files (fixed "School" and "Domains" information)
+- Fixed regression from b5 where game resources were no more searched in the hak and game files but only in module!
+- Added Campaign (.nwm) files in the list of modules for the Minimap Viewer window
+- Added Debug windows to parse Key, GFF and ERF file contents
+
+2.0.1 - 12MAR05
+
+- Original, SOU and HotU campaign (.nwm) strings are now correctly extracted
+- Original, SOU and HotU campaign (.nwm) files are viewable/exportable, but no more editable
